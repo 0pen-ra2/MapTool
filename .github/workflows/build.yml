@@ -54,7 +54,7 @@ jobs:
           files: ${{ env.SOLUTION_NAME }}-${{ env.SHORT_SHA }}.zip
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.SOLUTION_NAME }}-${{github.sha}}
         path: |

@@ -1,3 +1,11 @@
+This is a fork of [maptool](https://github.com/Starkku/MapTool), with added support for converting various Yuri's Revenge terrains to vanilla Red Alert 2 terrains.
+
+* `ra2_des2tem.ini` converts `Desert` theater to `Temperate` theater.
+* `ra2_ubn2tem.ini` and `ra2_ubn2urb.ini` convert `NewUrban` theater to `Temperate` and `Urban` respectively.
+* `ra2_snomd2sno.ini` and `ra2_urbmd2urb.ini` replace the YR-only tilesets in `Snow` and `Urban` maps.
+
+Original readme below:
+
 # MapTool
 
 This program exists to apply conversion profiles, 'scripts' of sorts to map files from Command & Conquer: Tiberian Sun and Command & Conquer: Red Alert 2 and their respective expansion packs that offer ability to alter map's theater, tile, overlay and other object data, essentially allowing user to perform operations such as cross-theater, or even cross-game map conversions.
@@ -41,3 +49,4 @@ Additionall thanks to following people:
 See [LICENSE.txt](LICENSE.txt).
 
 Versions [prior to 2.0](https://github.com/Starkku/MapTool/tree/24f3ed763bd2deef7fa6fbc5c08f0542e463924f) were licensed under GPL version 3.
+
